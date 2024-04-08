@@ -5,6 +5,13 @@ For the Programming for Security Professionals (ITT-310) course at [Grand Canyon
 
 Before this course, I had never developed with the C programming language. With this in mind, please understand that this application may not implement the best practices of the C programming language. Up until this point, I have been a hobbyist programmer for almost five years, so I attempted to implement the best practices from other languages such as Python with the C programming language. Yet, there is no guarantee that the following application is secure or bug-free. If you encounter a bug in the application, feel free to submit an Issue and I will attempt to fix it as soon as possible. Thanks for understanding. 
 
+### Usage
+
+The Telebook application was strictly developed with Windows support in mind. This application should run on Unix, but support is not guaranteed. To run this application, download the latest version from the release tab. Then, double-click on the Telebook.exe file. Alternatively, the following command can be run in `cmd.exe` to start the application. 
+```sh
+./Telebook.exe
+```
+
 ### Flowchart
 
 The following flowchart aims to illustrate the logical design flow of the CLI application. This flowchart was employed to plan the structure of the nested menus found within Telebook.
