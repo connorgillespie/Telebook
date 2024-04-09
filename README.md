@@ -7,7 +7,7 @@ Before this course, I had never developed with the C programming language. With 
 
 ### Usage
 
-The Telebook application was strictly developed with Windows support in mind. This application should run on Unix, but support is not guaranteed. To run this application, download the latest version from the release tab. Then, double-click on the Telebook.exe file. Alternatively, the following command can be run in `cmd.exe` to start the application. 
+The Telebook application was strictly developed with Windows support in mind. This application should run on Unix, but support is not guaranteed. To run this application, download the latest version from the release tab. Then, double-click on the `Telebook.exe` file. Alternatively, the following command can be run in `cmd.exe` to start the application. 
 ```sh
 ./Telebook.exe
 ```
