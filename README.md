@@ -58,7 +58,7 @@ flowchart TD
 
 ### Features
 
-The following aims to give a technical overview of the features implemented in Telebook.  
+The following aims to give a technical overview of the features implemented in Telebook. For an in depth explanation of the Telebook application, you can watch my video explanation [here](https://youtu.be/qouURvWnlMg).
 
 - Persistent Data Storage: Telebook utilizes a .data file to binary dump the struct array from memory. This occurs every time a user is added or removed from the application and when a contact is added or removed from a user account.
 - DJB2 Hashing Algorithm: No application should ever store plaintext passwords! Considering this application is for a class that focuses on cybersecurity principles, Telebook utilizes a simple hashing algorithm named [DJB2](http://www.cse.yorku.ca/~oz/hash.html) to illustrate the basic concept of password hashing. Telebook accomplishes this task by storing password hashes rather than plaintext passwords. It must be noted, that DJB2 is an insecure cryptographic function[/b]. No one should ever use this algorithm in a production environment, **ever**!
